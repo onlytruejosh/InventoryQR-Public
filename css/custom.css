@@ -1,0 +1,71 @@
+/* CSS Document */
+
+/* Style number of items input */
+
+.extraPad {
+	padding-left: 2vw;
+	padding-right: 1vw;
+	
+}
+
+.padBarcode {
+	padding-top: 2vh;
+	padding-right: 1.8vw;
+	padding-left: 1vw;
+}
+
+/* Style number of items input */
+
+#NumberOfItems {
+	max-width: 30vw;
+}
+
+/* Style item name input */
+
+#nameOfProduct {
+	max-width: 50vw;
+}
+#BarcodeNum{
+	max-width: 80vw;
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	
+}
+.selector {
+text-align: center;
+height: 100vh;
+width: 49vw;
+font-size: 10em;
+
+}
+.selector-bgscreen {
+text-align: center;
+height: 30vh;
+width: 50vw;
+font-size: 3em;
+padding-top: 0px;
+font-size: 2em;
+
+}
+
+#jumbohome-bgscreen{
+	
+}
+.selector-greenbg{
+	background-color: greenyellow;
+}
+
+.selector-redbg{
+	background-color: indianred;
+}
+.selector-bluebg{
+	background-color: dodgerblue;
+}
+
+.selector-purplebg{
+	background-color: mediumpurple;
+}
+.bigscreens{
+	height: 90vh;
+}

@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+	
+<!-- Apple iOS App Support -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="apple-touch-icon" href="icon.png">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<meta name="apple-mobile-web-app-title" content="TrombonesQR">
+	
+<!-- End of iOS App Code -->
+	
+<style>
+
+	#tick{
+margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+		max-height: 80vh;
+		max-width: 80vw;
+
+	}
+	
+</style>
+	
+<script>
+
+	function toHome() {
+	window.location.replace("decreasebarcode.html");
+	}
+	
+	setTimeout(toHome, 500);
+</script>
+	
+	
+<meta charset="UTF-8">
+<title>Edit Successful | InventoryQR</title>
+</head>
+
+<body>
+	
+	<div id="tick">
+	<img src="lottie/tick.svg" alt="Done!"   style="height: 70vh; width: 80vw;"  />
+	</div>
+</body>
+</html>

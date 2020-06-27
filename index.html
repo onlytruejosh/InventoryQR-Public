@@ -1,0 +1,80 @@
+<!doctype html>
+<html style="max-width: 99vw;">
+<head>
+<meta charset="UTF-8">
+<title>Home | InventoryQR</title>
+	
+<!-- Apple iOS App Support -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="apple-touch-icon" href="icon.png">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<meta name="apple-mobile-web-app-title" content="TrombonesQR">
+	
+<!-- End of iOS App Code -->
+	
+
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+<link href="css/custom.css" rel="stylesheet" type="text/css">
+<link href="css/screendeterminer-homepage.css" rel="stylesheet" type="text/css">
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.4.1.js"></script>
+<script src="lottie/lottie-player.js"></script>
+
+</head>
+
+<body>
+<div class="smallscreens">
+<div class="container-fluid">
+<div class="row">
+  <div class="col-6"><button type="button" class="btn btn-lg selector" onclick="window.location.replace('scanbarcode.html');"><lottie-player src="lottie/plus.json"  background="transparent"  speed="0.25"  style="width: 40vw; height: 80vh;"  loop autoplay></lottie-player></button></div>
+   <div class="col-6"><button type="button" class="btn btn-lg selector" onclick="window.location.replace('decreasebarcode.html');"><lottie-player src="lottie/minus.json"  background="transparent"  speed="0.25"  style="width: 40vw; height: 80vh;"  loop autoplay></lottie-player></button></div>
+</div>
+
+	
+</div>
+</div>
+	
+	
+<div class="bigscreens">
+  <div class="jumbotron" id="jumbohome-bgscreen">
+	  <h1 class="display-4">Welcome to InventoryQR</h1>
+	  
+	  
+  </div>
+	<div class="container-fluid bgscreencont-home">
+<div class="row" style="padding-top: 0px;">
+  <div class="col-6"><a href="additem.html"><center><lottie-player src="lottie/add_item.json"  background="transparent"  speed="0.25"  style="width:30vw; height: 30vh;"    autoplay></lottie-player></center></a></div>
+  <div class="col-6"><a href="viewDatabase.php"><center><img src="lottie/see.svg" style="width:30vw; height: 30vh;" />  </center></a></div>
+</div>
+	<div class="row">
+  <div class="col-6"><a href="scanbarcode.html"><center><img src="lottie/greenbarcode.svg" style="width:30vw; height: 30vh;" />  </center></a></div>
+  <div class="col-6 "><a href="decreasebarcode.html"><center><img src="lottie/redbarcode.svg" style="width:30vw; height: 30vh;" />  </center></a></div>
+</div>
+		
+	  
+  </div>
+	<br>
+	<div id="accordion1" role="tablist">
+		 
+		  <div class="card">
+		    <div class="card-header" role="tab" id="headingTwo1">
+		      <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo1" role="button" aria-expanded="false" aria-controls="collapseTwo1">Advanced Features </a> </h5>
+	        </div>
+		    <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1" data-parent="#accordion1">
+		      <div class="card-body">
+		        <div class="btn-group" role="group">
+		          <a href="generateBarcode.html" draggable="false"><button type="button" class="btn btn-primary" style="margin: 1vw;">New Custom Barcode</button></a>
+		          
+		          <a href="viewGeneratedCodes.php" draggable="false"><button type="button" class="btn btn-secondary" style="margin: 1vw;">View Custom Barcodes</button></a>
+	            </div>
+		      </div>
+	        </div>
+	    </div>
+		  <br><br>
+  </div>
+</div>
+</body>
+</html>
+	

@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	
+<!-- Apple iOS App Support -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="apple-touch-icon" href="icon.png">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<meta name="apple-mobile-web-app-title" content="TrombonesQR">
+	
+<!-- End of iOS App Code -->
+	
+<title>Scan Barcode | InventoryQR</title>
+	
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+<link href="css/custom.css" rel="stylesheet" type="text/css">
+	
+<script>
+
+	function toHome() {
+	window.location.replace("index.html");
+	}
+	
+	setTimeout(toHome, 30000);
+</script>
+</head>
+
+<body>
+	
+	<form class="extraPad padBarcode" action="addExistingProduct.php" method="post">
+
+	     
+	     <div class="form-group">
+			 <label for="BarcodeNum"><img src="lottie/barcode.svg" alt="Barcode" style="height: 30vh; width: 30vw;" /></label>
+	    <input name="barcode" type="text" class="form-control" id="BarcodeNum" autofocus >
+	</div>
+	     
+	
+		  
+<br>
+	  <button type="submit" class="btn btn-primary" style="	  display: block;
+  margin-left: auto;
+  margin-right: auto;">Increase</button>
+</form><br>
+	<center>
+	 <a href="index.html" draggable="false"><center><img draggable="false" src="lottie/home.svg" style="width:20vw; height: 20vh;" />  </center></a></center><br>
+	
+	
+	
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+/* CSS Document */
+
+@media only screen and (max-height: 400px) {
+	.bigscreens{
+		visibility: hidden;
+		display: none;
+	}
+}
+
+@media only screen and (min-height: 401px) {
+	.smallscreens{
+		visibility: hidden;
+		display: none;
+	}
+}

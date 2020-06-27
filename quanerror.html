@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+<link href="css/custom.css" rel="stylesheet" type="text/css">
+	
+<!-- Apple iOS App Support -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="apple-touch-icon" href="icon.png">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<meta name="apple-mobile-web-app-title" content="TrombonesQR">
+	
+<!-- End of iOS App Code -->
+	
+<style>
+
+	#tick{
+margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+		max-height: 80vh;
+		max-width: 80vw;
+
+	}
+	
+</style>
+	
+<script>
+
+	function toHome() {
+	window.location.replace("scanbarcode.html");
+	}
+	
+	setTimeout(toHome, 10000);
+</script>
+	
+	
+<meta charset="UTF-8">
+<title>Edit Failure | InventoryQR</title>
+</head>
+
+<body>
+	
+	<div id="tick"><center>
+	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets8.lottiefiles.com/packages/lf20_f1cFsO.json"  background="transparent"  speed="0.25"  style="height: 50vh; width: 80vw;"    autoplay></lottie-player>
+		<br><h1>Please add this item using another device</h1></center>
+	</div>
+</body>
+</html>
